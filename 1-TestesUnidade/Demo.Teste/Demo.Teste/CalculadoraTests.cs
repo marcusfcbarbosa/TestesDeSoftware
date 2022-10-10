@@ -18,6 +18,7 @@ namespace Demo.Teste
             Assert.True(resultado == 4);
         }
 
+
         [Theory]
         [InlineData(2,2,4)]
         [InlineData(2, 3, 5)]
