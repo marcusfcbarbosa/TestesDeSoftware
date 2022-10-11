@@ -6,8 +6,8 @@ namespace Features.Tests._01__Traits
 {
     public class ClienteTests
     {
-        [Fact(DisplayName ="Novo Cliente Válido")]
-        [Trait("Categoria","Cliente Trait Testes")]
+        [Fact(DisplayName = "Novo Cliente Válido")]
+        [Trait("Categoria", "Cliente Trait Testes")]
         public void Cliente_NovoCliente_DeveEstarValido()
         {
             //Arrange
