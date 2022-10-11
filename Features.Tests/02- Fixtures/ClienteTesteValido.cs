@@ -1,6 +1,4 @@
-﻿using Features.Clientes;
-using System;
-using Xunit;
+﻿using Xunit;
 
 namespace Features.Tests._02__Fixtures
 {

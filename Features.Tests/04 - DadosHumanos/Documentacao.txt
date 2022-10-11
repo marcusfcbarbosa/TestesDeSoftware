@@ -1,0 +1,11 @@
+﻿Basicamente
+Gerar massa de dados validos para teste de unidade
+como se fosse usar uma fixture, só que com massa de dados
+válida.
+Ex: e-mail válido, cpf válido, etc
+
+Gerador Fake de Dados
+
+https://github.com/bchavez/Bogus
+
+Install-Package Bogus
