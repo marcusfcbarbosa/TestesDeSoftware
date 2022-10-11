@@ -49,6 +49,5 @@ namespace Demo.Teste
             //Assert
             Assert.Equal(expected: habilidades, funcionario.Habilidades);
         }
-
     }
 }
