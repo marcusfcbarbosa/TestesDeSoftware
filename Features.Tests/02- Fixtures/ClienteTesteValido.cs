@@ -8,7 +8,6 @@ namespace Features.Tests._02__Fixtures
     public class ClienteTesteValido
     {
         readonly ClienteTestsFixtures _fixture;
-
         public ClienteTesteValido(ClienteTestsFixtures fixture)
         {
             _fixture = fixture;
