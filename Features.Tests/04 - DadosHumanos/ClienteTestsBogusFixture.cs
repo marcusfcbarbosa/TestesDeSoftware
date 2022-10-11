@@ -6,7 +6,7 @@ using Bogus.DataSets;
 using Features.Clientes;
 using Xunit;
 
-namespace Features.Tests._04___DadosHumanos
+namespace Features.Tests
 {
     [CollectionDefinition(nameof(ClienteBogusCollection))]
     public class ClienteBogusCollection : ICollectionFixture<ClienteTestsBogusFixture>

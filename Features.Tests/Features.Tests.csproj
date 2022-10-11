@@ -9,22 +9,25 @@
   <ItemGroup>
     <Compile Remove="03- Order\**" />
     <Compile Remove="04- Dados Humanos\**" />
+    <Compile Remove="05- Mock\**" />
     <EmbeddedResource Remove="03- Order\**" />
     <EmbeddedResource Remove="04- Dados Humanos\**" />
+    <EmbeddedResource Remove="05- Mock\**" />
     <None Remove="03- Order\**" />
     <None Remove="04- Dados Humanos\**" />
+    <None Remove="05- Mock\**" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Bogus" Version="34.0.2" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+    <PackageReference Include="Moq" Version="4.18.2" />
     <PackageReference Include="xunit" Version="2.4.0" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
     <PackageReference Include="coverlet.collector" Version="1.2.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="05- Mock\" />
     <Folder Include="06 - AutoMock\" />
     <Folder Include="07 - FluentAssertions\" />
   </ItemGroup>

@@ -1,6 +1,6 @@
 ﻿using Xunit;
 
-namespace Features.Tests._04___DadosHumanos
+namespace Features.Tests
 {
     [Collection(nameof(ClienteBogusCollection))]
     public class ClienteBogusTests
