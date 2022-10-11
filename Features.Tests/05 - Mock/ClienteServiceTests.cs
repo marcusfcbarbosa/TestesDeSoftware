@@ -35,7 +35,6 @@ namespace Features.Tests
 
             clienteRepo.Verify(r => r.Adicionar(cliente), times: Times.Once);
             mediator.Verify(m => m.Publish(It.IsAny<INotification>(), CancellationToken.None), times: Times.Once);
-
         }
 
         [Fact(DisplayName = "Adicionar Cliente com Falha")]
