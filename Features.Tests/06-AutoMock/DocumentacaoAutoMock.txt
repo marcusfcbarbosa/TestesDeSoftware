@@ -1,0 +1,6 @@
+﻿AutoMock, serve para testar
+qualquer serviço que esta lotado de injecoes
+e vc nao quer ficar criando um mock pra cada um
+facilita a criação dos Mocks
+
+install-package MOQ.automock

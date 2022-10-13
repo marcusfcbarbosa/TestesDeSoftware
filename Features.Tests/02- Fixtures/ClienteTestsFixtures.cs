@@ -1,6 +1,4 @@
-﻿using Bogus;
-using Bogus.DataSets;
-using Features.Clientes;
+﻿using Features.Clientes;
 using System;
 using Xunit;
 
