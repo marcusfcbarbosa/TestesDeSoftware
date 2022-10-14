@@ -1,0 +1,13 @@
+﻿Somente em versao Enterprise, nativo do VS
+tem analise de cobertura de teste
+
+Test => Analise ==> Code Coverage
+
+
+Ferramenta gratuita
+https://github.com/OpenCover/opencover
+
+<PackageReference Include="altcover" Version="8.3.839" />
+
+Depois ler a documentação dele
+https://www.nuget.org/packages/altcover/
