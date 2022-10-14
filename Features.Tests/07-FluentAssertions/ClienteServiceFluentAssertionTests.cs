@@ -20,6 +20,7 @@ namespace Features.Tests
             _clienteTestsAutoMockerFixture = clienteTestsAutoMockerFixture;
             _clienteService = _clienteTestsAutoMockerFixture.ObterClienteService();
         }
+
         [Fact(DisplayName = "Adicionar Cliente com Sucesso")]
         [Trait("Categoria", "Cliente Service Fluent Assertion Tests")]
         public void ClienteService_Adicionar_DeveExecutarComSucesso()
@@ -44,6 +45,7 @@ namespace Features.Tests
 
             //Arrange
             var cliente = _clienteTestsAutoMockerFixture.GerarClienteInvalido();
+            
             //Act
             _clienteService.Adicionar(cliente);
 
