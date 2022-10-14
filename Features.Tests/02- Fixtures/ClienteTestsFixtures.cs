@@ -7,7 +7,6 @@ namespace Features.Tests._02__Fixtures
 
     [CollectionDefinition(nameof(ClienteCollection))]
     public class ClienteCollection : ICollectionFixture<ClienteTestsFixtures> { 
-    
     }
     public class ClienteTestsFixtures : IDisposable
     {
