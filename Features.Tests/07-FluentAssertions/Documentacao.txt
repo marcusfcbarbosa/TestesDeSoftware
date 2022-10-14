@@ -1,0 +1,19 @@
+﻿Documentação
+https://fluentassertions.com/
+
+Repositorio do GIT
+https://github.com/fluentassertions/fluentassertions
+
+<PackageReference Include="FluentAssertions" Version="6.7.0" />
+using FluentAssertions;
+
+Resumindo vc tira os Asserts.Equals, Asserts.QualquerCoisa()
+por 
+
+//Assert
+var result = cliente.EhValido();
+result.Should().BeFalse();//FluentAssertions  <======= isso subistitui o Assert
+cliente.ValidationResult.Errors.Should().HaveCountGreaterThanOrEqualTo(1);//FluentAssertions  <======= isso subistitui o Assert
+
+
+10:12
